@@ -8,7 +8,7 @@ import "./App.css";
 const API_URL = "https://www.omdbapi.com?apikey=51d5aff5";
 
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+  git remote add origin https://github.com/ichig085/imovies-search-react-app.gitconst [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
